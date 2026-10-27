@@ -17,3 +17,8 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(1, 0)
+
+def test_power():
+    from src.calculator import power
+    assert power(2, 3) == 8
+    assert power(5, 0) == 1
