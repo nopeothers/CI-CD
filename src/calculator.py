@@ -2,7 +2,6 @@ def add(a, b):
     """Возвращает сумму двух чисел."""
     return a + b
 
-
 def subtract(a, b):
     """Возвращает разность двух чисел."""
     return a - b
@@ -20,3 +19,5 @@ def divide(a, b):
 def power(a, b):
     """Возводит число a в степень b."""
     return a ** b
+
+print("hello world")
