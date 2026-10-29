@@ -20,4 +20,4 @@ def power(a, b):
     """Возводит число a в степень b."""
     return a ** b
 
-print("hello world")
+print("hello worldd")
